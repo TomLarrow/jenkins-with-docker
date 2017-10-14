@@ -2,7 +2,7 @@ pipeline{
     agent {label 'master'}
 
     environment {
-        imageTag = "tomlarrow/jenkins"
+        imageTag = "tomlarrow/jenkins-with-docker"
     }
 
     stages {
